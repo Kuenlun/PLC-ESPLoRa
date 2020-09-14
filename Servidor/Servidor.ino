@@ -392,20 +392,20 @@ void print_outputs(WiFiClient client, byte group){
     if (bitRead(selector, group)){
       client.println("          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Programa: ON</p>");
     }else{
-      client.println("          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Bot&oacute;n: ON</p>");
+      client.println("          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>ON</p>");
     }
   }else{
     if (bitRead(selector, group)){
       client.println("          <p style='font-size: 12px; background-color:#F44336;color: white;'>Programa: OFF</p>");
     }else{
-      client.println("          <p style='font-size: 12px; background-color:#F44336;color: white;'>Bot&oacute;n: OFF</p>");
+      client.println("          <p style='font-size: 12px; background-color:#F44336;color: white;'>OFF</p>");
     }
   }
   if (bitRead(selector, group)){
     if (bitRead(current_states, group)){
-      client.println("          <button style='width:100%; border: 1px solid green' class='button_blocked'>ON</button></a></p>");
+      client.println("          <p><a href='/'><button style='width:100%; border: 1px solid green' class='button_blocked'>ON</button></a></p>");
     }else{
-      client.println("          <button style='width:100%; border: 1px solid red' class='button_blocked'>OFF</button></a></p>");
+      client.println("          <p><a href='/'><button style='width:100%; border: 1px solid red' class='button_blocked'>OFF</button></a></p>");
     }
   }else{
     if (bitRead(current_states, group)){
@@ -996,7 +996,7 @@ void loop(){
                 char* formato3 = "<p style='font-size: 14px; background-color:red'>RSSI: %i</p>";
                 sprintf(html_line3, formato3, rssi);
                 client.println(html_line3);
-              }else if (rssi > -110){
+              }else if (rssi > -150){
                 char* formato3 = "<p style='font-size: 14px; background-color:black; color: white;'>RSSI: %i</p>";
                 sprintf(html_line3, formato3, rssi);
                 client.println(html_line3);

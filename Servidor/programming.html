@@ -1,126 +1,191 @@
 <!Doctype html>
 <html>
-<head>
-<style>
-
-.fila > * {
-  padding:10px;
-  display: inline-block;
-  text-align: center;
-}
-
-.matriz {
-  padding:10px;
-  text-align: center;
-}
-
-</style>
-</head>
-<body>
-<h1 style="text-align: center;">TFG Web Server</h1>
-<h2 style="text-align: center;">Panel de programaci&oacute;n de las salidas</h2>
-<hr>
-
-<h3 style="text-align: center;">Horas</h3>
-<div class="matriz">            
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">00:00<br/>00:30</button>
-    <button type="button" class="btn btn-default col-md-4">00:30<br/>01:00</button>
-    <button type="button" class="btn btn-default col-md-4">01:00<br/>01:30</button>
-    <button type="button" class="btn btn-default col-md-4">01:30<br/>02:00</button>
-    <button type="button" class="btn btn-default col-md-4">02:00<br/>02:30</button>
-    <button type="button" class="btn btn-default col-md-4">02:30<br/>03:00</button>
-  </div>
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">03:00<br/>03:30</button>
-    <button type="button" class="btn btn-default col-md-4">03:30<br/>04:00</button>
-    <button type="button" class="btn btn-default col-md-4">04:00<br/>04:30</button>
-    <button type="button" class="btn btn-default col-md-4">04:30<br/>05:00</button>
-    <button type="button" class="btn btn-default col-md-4">05:00<br/>05:30</button>
-    <button type="button" class="btn btn-default col-md-4">05:30<br/>06:00</button>
-  </div>
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">06:00<br/>06:30</button>
-    <button type="button" class="btn btn-default col-md-4">06:30<br/>07:00</button>
-    <button type="button" class="btn btn-default col-md-4">07:00<br/>07:30</button>
-    <button type="button" class="btn btn-default col-md-4">07:30<br/>08:00</button>
-    <button type="button" class="btn btn-default col-md-4">08:00<br/>08:30</button>
-    <button type="button" class="btn btn-default col-md-4">08:30<br/>09:00</button>
-  </div>
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">09:00<br/>09:30</button>
-    <button type="button" class="btn btn-default col-md-4">09:30<br/>10:00</button>
-    <button type="button" class="btn btn-default col-md-4">10:00<br/>10:30</button>
-    <button type="button" class="btn btn-default col-md-4">10:30<br/>11:00</button>
-    <button type="button" class="btn btn-default col-md-4">11:00<br/>11:30</button>
-    <button type="button" class="btn btn-default col-md-4">11:30<br/>12:00</button>
-  </div>
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">12:00<br/>12:30</button>
-    <button type="button" class="btn btn-default col-md-4">12:30<br/>13:00</button>
-    <button type="button" class="btn btn-default col-md-4">13:00<br/>13:30</button>
-    <button type="button" class="btn btn-default col-md-4">13:30<br/>14:00</button>
-    <button type="button" class="btn btn-default col-md-4">14:00<br/>14:30</button>
-    <button type="button" class="btn btn-default col-md-4">14:30<br/>15:00</button>
-  </div>
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">15:00<br/>15:30</button>
-    <button type="button" class="btn btn-default col-md-4">15:30<br/>16:00</button>
-    <button type="button" class="btn btn-default col-md-4">16:00<br/>16:30</button>
-    <button type="button" class="btn btn-default col-md-4">16:30<br/>17:00</button>
-    <button type="button" class="btn btn-default col-md-4">17:00<br/>17:30</button>
-    <button type="button" class="btn btn-default col-md-4">17:30<br/>18:00</button>
-  </div>
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">18:00<br/>18:30</button>
-    <button type="button" class="btn btn-default col-md-4">18:30<br/>19:00</button>
-    <button type="button" class="btn btn-default col-md-4">19:00<br/>19:30</button>
-    <button type="button" class="btn btn-default col-md-4">19:30<br/>20:00</button>
-    <button type="button" class="btn btn-default col-md-4">20:00<br/>20:30</button>
-    <button type="button" class="btn btn-default col-md-4">20:30<br/>21:00</button>
-  </div>
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">21:00<br/>21:30</button>
-    <button type="button" class="btn btn-default col-md-4">21:30<br/>22:00</button>
-    <button type="button" class="btn btn-default col-md-4">22:00<br/>22:30</button>
-    <button type="button" class="btn btn-default col-md-4">22:30<br/>23:00</button>
-    <button type="button" class="btn btn-default col-md-4">23:00<br/>23:30</button>
-    <button type="button" class="btn btn-default col-md-4">23:30<br/>24:00</button>
-  </div>
-</div>
-
-<hr>
-<h3 style="text-align: center;">D&iacute;as</h3>
-<div class="matriz">
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">Lunes</button>
-    <button type="button" class="btn btn-default col-md-4">Martes</button>
-    <button type="button" class="btn btn-default col-md-4">Mi&eacute;rcoles</button>
-    <button type="button" class="btn btn-default col-md-4">Jueves</button>
-    <button type="button" class="btn btn-default col-md-4">Viernes</button>
-    <button type="button" class="btn btn-default col-md-4">S&aacute;bado</button>
-    <button type="button" class="btn btn-default col-md-4">Domingo</button>
-  </div>
-</div>
-
-<hr>
-<h3 style="text-align: center;">Meses</h3>
-<div class="matriz">
-  <div class="fila">
-    <button type="button" class="btn btn-default col-md-4">Enero</button>
-    <button type="button" class="btn btn-default col-md-4">Febrero</button>
-    <button type="button" class="btn btn-default col-md-4">Marzo</button>
-    <button type="button" class="btn btn-default col-md-4">Abril</button>
-    <button type="button" class="btn btn-default col-md-4">Mayo</button>
-    <button type="button" class="btn btn-default col-md-4">Junio</button>
-    <button type="button" class="btn btn-default col-md-4">Julio</button>
-    <button type="button" class="btn btn-default col-md-4">Agosto</button>
-    <button type="button" class="btn btn-default col-md-4">Septiembre</button>
-    <button type="button" class="btn btn-default col-md-4">Octubre</button>
-    <button type="button" class="btn btn-default col-md-4">Noviembre</button>
-    <button type="button" class="btn btn-default col-md-4">Diciembre</button>
-  </div>
-</div>
-
-</body>
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='icon' href='data:,'>
+    <style>
+      html {
+        font-family: Helvetica;
+        display: inline-block;
+        margin: 0px auto;
+        text-align: center;
+      }
+      .btn-group button:not(:last-child) {
+        border-right: none; /* Prevent double borders */
+      }
+      /* Clear floats (clearfix hack) */
+      .btn-group:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      /* Add a background color on hover */
+      .btn-group button:hover {
+        background-color: #3e8e41;
+      }
+      .btn-group button {
+        padding: 5px 8px;
+        font-size: 12px;
+      }
+      .button_on {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 2px 5px;
+        text-decoration: none;
+        font-size: 12px;
+        margin: 0px;
+        cursor: pointer;
+        float: left;
+      }
+      .button_off {
+        background-color: #555555;
+        border: none;
+        color: white;
+        padding: 2px 5px;
+        text-decoration: none;
+        font-size: 12px;
+        margin: 0px;
+        cursor: pointer;
+        float: left;
+      }
+      .fila button {
+        padding: 5px 8px;
+        font-size: 12px;
+      }
+      .fila > * {
+        padding:0px;
+        display: inline-block;
+        text-align: center;
+      }
+      .matriz {
+        padding:5px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 style='text-align: center;'>TFG Web Server</h1>
+    <h2 style='text-align: center;'>Panel de programaci&oacute;n de la salida 1</h2>
+    <hr>
+    <h3 style='text-align: center;'>Horas</h3>
+    <div class='matriz'>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/h/00/on'><button style='width:12.5%' class='button_off'>00:00<br/>00:30</button></a></p>
+        <p><a href='/h/01/on'><button style='width:12.5%' class='button_off'>00:30<br/>01:00</button></a></p>
+        <p><a href='/h/02/on'><button style='width:12.5%' class='button_off'>01:00<br/>01:30</button></a></p>
+        <p><a href='/h/03/on'><button style='width:12.5%' class='button_off'>01:30<br/>02:00</button></a></p>
+        <p><a href='/h/04/on'><button style='width:12.5%' class='button_off'>02:00<br/>02:30</button></a></p>
+        <p><a href='/h/05/on'><button style='width:12.5%' class='button_off'>02:30<br/>03:00</button></a></p>
+        <p><a href='/h/06/on'><button style='width:12.5%' class='button_off'>03:00<br/>03:30</button></a></p>
+        <p><a href='/h/07/on'><button style='width:12.5%' class='button_off'>03:30<br/>04:00</button></a></p>
+      </div>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/h/10/on'><button style='width:12.5%' class='button_off'>04:00<br/>04:30</button></a></p>
+        <p><a href='/h/11/on'><button style='width:12.5%' class='button_off'>04:30<br/>05:00</button></a></p>
+        <p><a href='/h/12/on'><button style='width:12.5%' class='button_off'>05:00<br/>05:30</button></a></p>
+        <p><a href='/h/13/on'><button style='width:12.5%' class='button_off'>05:30<br/>06:00</button></a></p>
+        <p><a href='/h/14/on'><button style='width:12.5%' class='button_off'>06:00<br/>06:30</button></a></p>
+        <p><a href='/h/15/on'><button style='width:12.5%' class='button_off'>06:30<br/>07:00</button></a></p>
+        <p><a href='/h/16/on'><button style='width:12.5%' class='button_off'>07:00<br/>07:30</button></a></p>
+        <p><a href='/h/17/on'><button style='width:12.5%' class='button_off'>07:30<br/>08:00</button></a></p>
+      </div>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/h/20/on'><button style='width:12.5%' class='button_off'>08:00<br/>08:30</button></a></p>
+        <p><a href='/h/21/on'><button style='width:12.5%' class='button_off'>08:30<br/>09:00</button></a></p>
+        <p><a href='/h/22/on'><button style='width:12.5%' class='button_off'>09:00<br/>09:30</button></a></p>
+        <p><a href='/h/23/on'><button style='width:12.5%' class='button_off'>09:30<br/>10:00</button></a></p>
+        <p><a href='/h/24/on'><button style='width:12.5%' class='button_off'>10:00<br/>10:30</button></a></p>
+        <p><a href='/h/25/on'><button style='width:12.5%' class='button_off'>10:30<br/>11:00</button></a></p>
+        <p><a href='/h/26/on'><button style='width:12.5%' class='button_off'>11:00<br/>11:30</button></a></p>
+        <p><a href='/h/27/on'><button style='width:12.5%' class='button_off'>11:30<br/>12:00</button></a></p>
+      </div>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/h/30/on'><button style='width:12.5%' class='button_off'>12:00<br/>12:30</button></a></p>
+        <p><a href='/h/31/on'><button style='width:12.5%' class='button_off'>12:30<br/>13:00</button></a></p>
+        <p><a href='/h/32/on'><button style='width:12.5%' class='button_off'>13:00<br/>13:30</button></a></p>
+        <p><a href='/h/33/on'><button style='width:12.5%' class='button_off'>13:30<br/>14:00</button></a></p>
+        <p><a href='/h/34/on'><button style='width:12.5%' class='button_off'>14:00<br/>14:30</button></a></p>
+        <p><a href='/h/35/on'><button style='width:12.5%' class='button_off'>14:30<br/>15:00</button></a></p>
+        <p><a href='/h/36/on'><button style='width:12.5%' class='button_off'>15:00<br/>15:30</button></a></p>
+        <p><a href='/h/37/on'><button style='width:12.5%' class='button_off'>15:30<br/>16:00</button></a></p>
+      </div>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/h/40/on'><button style='width:12.5%' class='button_off'>16:00<br/>16:30</button></a></p>
+        <p><a href='/h/41/on'><button style='width:12.5%' class='button_off'>16:30<br/>17:00</button></a></p>
+        <p><a href='/h/42/off'><button style='width:12.5%' class='button_on'>17:00<br/>17:30</button></a></p>
+        <p><a href='/h/43/off'><button style='width:12.5%' class='button_on'>17:30<br/>18:00</button></a></p>
+        <p><a href='/h/44/off'><button style='width:12.5%' class='button_on'>18:00<br/>18:30</button></a></p>
+        <p><a href='/h/45/off'><button style='width:12.5%' class='button_on'>18:30<br/>19:00</button></a></p>
+        <p><a href='/h/46/off'><button style='width:12.5%' class='button_on'>19:00<br/>19:30</button></a></p>
+        <p><a href='/h/47/off'><button style='width:12.5%' class='button_on'>19:30<br/>20:00</button></a></p>
+      </div>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/h/50/off'><button style='width:12.5%' class='button_on'>20:00<br/>20:30</button></a></p>
+        <p><a href='/h/51/off'><button style='width:12.5%' class='button_on'>20:30<br/>21:00</button></a></p>
+        <p><a href='/h/52/on'><button style='width:12.5%' class='button_off'>21:00<br/>21:30</button></a></p>
+        <p><a href='/h/53/on'><button style='width:12.5%' class='button_off'>21:30<br/>22:00</button></a></p>
+        <p><a href='/h/54/on'><button style='width:12.5%' class='button_off'>22:00<br/>22:30</button></a></p>
+        <p><a href='/h/55/on'><button style='width:12.5%' class='button_off'>22:30<br/>23:00</button></a></p>
+        <p><a href='/h/56/on'><button style='width:12.5%' class='button_off'>23:00<br/>23:30</button></a></p>
+        <p><a href='/h/57/on'><button style='width:12.5%' class='button_off'>23:30<br/>24:00</button></a></p>
+      </div>
+      <div class='fila'>
+        <p><a href='/h/all/on'><button type='button' class='btn btn-default col-md-4'>Todos</button></a></p>
+        <p><a href='/h/all/off'><button type='button' class='btn btn-default col-md-4'>Ninguno</button></a></p>
+      </div>
+    </div>
+    <hr>
+    <h3 style='text-align: center;'>D&iacute;as</h3>
+    <div class='matriz'>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/d/61/on'><button style='width:25%' class='button_off'>Lunes</button></a></p>
+        <p><a href='/d/62/on'><button style='width:25%' class='button_off'>Martes</button></a></p>
+        <p><a href='/d/63/on'><button style='width:25%' class='button_off'>Mi&eacute;rcoles</button></a></p>
+        <p><a href='/d/64/on'><button style='width:25%' class='button_off'>Jueves</button></a></p>
+      </div>
+      <div class='btn-group' style='width:100%>
+        <p><a href='/d/65/on'><button style='width:33.3%' class='button_off'>Viernes</button></a></p>
+        <p><a href='/d/66/off'><button style='width:33.3%' class='button_on'>S&aacute;bado</button></a></p>
+        <p><a href='/d/60/off'><button style='width:33.3%' class='button_on'>Domingo</button></a></p>
+      </div>
+      <div class='fila'>
+        <p><a href='/d/all/on'><button type='button' class='btn btn-default col-md-4'>Todos</button></a></p>
+        <p><a href='/d/all/off'><button type='button' class='btn btn-default col-md-4'>Ninguno</button></a></p>
+      </div>
+    </div>
+    <hr>
+    <h3 style='text-align: center;'>Meses</h3>
+    <div class='matriz'>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/d/70/off'><button style='width:25%' class='button_on'>Enero</button></a></p>
+        <p><a href='/d/71/off'><button style='width:25%' class='button_on'>Febrero</button></a></p>
+        <p><a href='/d/72/off'><button style='width:25%' class='button_on'>Marzo</button></a></p>
+        <p><a href='/d/73/off'><button style='width:25%' class='button_on'>Abril</button></a></p>
+      </div>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/d/74/off'><button style='width:25%' class='button_on'>Mayo</button></a></p>
+        <p><a href='/d/75/off'><button style='width:25%' class='button_on'>Junio</button></a></p>
+        <p><a href='/d/76/off'><button style='width:25%' class='button_on'>Julio</button></a></p>
+        <p><a href='/d/77/off'><button style='width:25%' class='button_on'>Agosto</button></a></p>
+      </div>
+      <div class='btn-group' style='width:100%'>
+        <p><a href='/d/80/off'><button style='width:25%' class='button_on'>Septiembre</button></a></p>
+        <p><a href='/d/81/off'><button style='width:25%' class='button_on'>Octubre</button></a></p>
+        <p><a href='/d/82/off'><button style='width:25%' class='button_on'>Noviembre</button></a></p>
+        <p><a href='/d/83/off'><button style='width:25%' class='button_on'>Diciembre</button></a></p>
+      </div>
+      <div class='fila'>
+        <p><a href='/m/all/on'><button type='button' class='btn btn-default col-md-4'>Todos</button></a></p>
+        <p><a href='/m/all/off'><button type='button' class='btn btn-default col-md-4'>Ninguno</button></a></p>
+      </div>
+    </div>
+    <hr>
+    <div class='matriz'>
+      <div class='fila'>
+        <p><a href='/program'><button type='button' class='btn btn-default col-md-4'>Programar</button></a></p>
+        <p><a href='/discard'><button type='button' class='btn btn-default col-md-4'>Descartar</button></a></p>
+      </div>
+    </div>
+  </body>
 </html>

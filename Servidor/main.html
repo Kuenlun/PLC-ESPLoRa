@@ -78,71 +78,71 @@
         cursor: pointer;
         float: left;
       }
-
     </style>
   </head>
   <body>
     <h1 style='text-align: center;'>TFG Web Server</h1>
     <h2 style='text-align: center;'>Panel de control de las salidas</h2>
     <p><a href='/sincronize'><button class='btn btn-default col-md-4'>Sincronizar</button></a></p>
-    <p style='font-size: 14px; width:100%; height:5px;'>Temperatura Rel&eacute;s</p>
+    <p style='font-size: 14px; width:100%; height:5px;'>2020/09/14 - 13:45:00</p>
     <div class='fila'>
       <div class='btn-group' style='border-style:ridge;'>
         <p style='font-size: 14px; width:100%; height:5px;'>Temperatura Rel&eacute;s</p>
-        <p style='font-size: 14px; width:100%; height:5px;'>35,6</p>
+        <p style='font-size: 14px; width:100%; height:5px;'>30.5</p>
       </div>
       <div class='btn-group' style='border-style:ridge;'>
         <p style='font-size: 14px; width:100%; height:5px;'>Temperatura Sonda</p>
-        <p style='font-size: 14px; width:100%; height:5px;'>35,6</p>
+        <p style='font-size: 14px; width:100%; height:5px;'>28.3</p>
       </div>
     </div>
+    <p style='font-size: 14px; background-color:green; color: white'>RSSI: -66</p>
     <hr>
     <h3 style='text-align: center;'>Rel&eacute;s de baja potencia</h3>
     <div class='matriz'>
       <div class='fila'>
         <div class='btn-group' style='border-style:ridge;padding:0px 25px'>
           <p style='font-size: 20px; width:100%; height:15px;'>Salida 1</p>
-          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Estado: ON</p>
-          <button style='width:100%; border: 1px solid green' class='button_blocked'>ON</button></a></p>
+          <p style='font-size: 12px; background-color:#F44336;color: white;'>OFF</p>
+          <p><a href='/but/%i/on'><button style='width:100%; border: 1px solid red' class='button_off'>OFF</button></a></p>
 	  <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
           <p><a href='/prg/1'><button class='btn btn-default col-md-4'>Programar</button></a></p>
         </div>
         <div class='btn-group' style='border-style:ridge;padding:0px 25px'>
-          <p style='font-size: 20px; width:100%; height:15px;'>Salida 1</p>
-          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Estado: ON</p>
-          <p><a href='/but/1/off'><button style='width:100%; border: 1px solid green' class='button_on'>ON</button></a></p>
+          <p style='font-size: 20px; width:100%; height:15px;'>Salida 2</p>
+          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>ON</p>
+          <p><a href='/but/%i/off'><button style='width:100%; border: 1px solid green' class='button_on'>ON</button></a></p>
           <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
           <p><a href='/prg/1'><button class='btn btn-default col-md-4'>Programar</button></a></p>
         </div>
       </div>
       <div class='fila'>
         <div class='btn-group' style='border-style:ridge;padding:0px 25px'>
-          <p style='font-size: 20px; width:100%; height:15px;'>Salida 1</p>
-          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Estado: ON</p>
-          <p><a href='/but/1/off'><button style='width:100%; border: 1px solid green' class='button_on'>ON</button></a></p>
+          <p style='font-size: 20px; width:100%; height:15px;'>Salida 3</p>
+          <p style='font-size: 12px; background-color:#F44336;color: white;'>Programa: OFF</p>
+          <p><a href='/'><button style='width:100%; border: 1px solid red' class='button_blocked'>OFF</button></a></p></a></p>
           <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
           <p><a href='/prg/1'><button class='btn btn-default col-md-4'>Programar</button></a></p>
         </div>
         <div class='btn-group' style='border-style:ridge;padding:0px 25px'>
-          <p style='font-size: 20px; width:100%; height:15px;'>Salida 1</p>
-          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Estado: ON</p>
-          <p><a href='/but/1/off'><button style='width:100%; border: 1px solid green' class='button_on'>ON</button></a></p>
+          <p style='font-size: 20px; width:100%; height:15px;'>Salida 4</p>
+          <p style='font-size: 12px; background-color:#F44336;color: white;'>Programa: OFF</p>
+          <p><a href='/'><button style='width:100%; border: 1px solid green' class='button_blocked'>ON</button></a></p>
           <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
           <p><a href='/prg/1'><button class='btn btn-default col-md-4'>Programar</button></a></p>
         </div>
       </div>
       <div class='fila'>
         <div class='btn-group' style='border-style:ridge;padding:0px 25px'>
-          <p style='font-size: 20px; width:100%; height:15px;'>Salida 1</p>
-          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Estado: ON</p>
-          <p><a href='/but/1/off'><button style='width:100%; border: 1px solid green' class='button_on'>ON</button></a></p>
+          <p style='font-size: 20px; width:100%; height:15px;'>Salida 5</p>
+          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Programa: ON</p>
+          <p><a href='/'><button style='width:100%; border: 1px solid red' class='button_blocked'>OFF</button></a></p></a></p>
           <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
           <p><a href='/prg/1'><button class='btn btn-default col-md-4'>Programar</button></a></p>
         </div>
         <div class='btn-group' style='border-style:ridge;padding:0px 25px'>
-          <p style='font-size: 20px; width:100%; height:15px;'>Salida 1</p>
-          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Estado: ON</p>
-          <p><a href='/but/1/off'><button style='width:100%; border: 1px solid green' class='button_on'>ON</button></a></p>
+          <p style='font-size: 20px; width:100%; height:15px;'>Salida 6</p>
+          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Programa: ON</p>
+          <p><a href='/'><button style='width:100%; border: 1px solid green' class='button_blocked'>ON</button></a></p>
           <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
           <p><a href='/prg/1'><button class='btn btn-default col-md-4'>Programar</button></a></p>
         </div>
@@ -153,17 +153,17 @@
     <div class='matriz'>
       <div class='fila'>
         <div class='btn-group' style='border-style:ridge;padding:0px 25px'>
-          <p style='font-size: 20px; width:100%; height:15px;'>Salida 1</p>
-          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Estado: ON</p>
-          <p><a href='/but/1/off'><button style='width:100%; border: 1px solid green' class='button_on'>ON</button></a></p>
-          <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
+          <p style='font-size: 20px; width:100%; height:15px;'>Salida 7</p>
+          <p style='font-size: 12px; background-color:#F44336;color: white;'>OFF</p>
+          <p><a href='/but/%i/on'><button style='width:100%; border: 1px solid red' class='button_off'>OFF</button></a></p>
+	  <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
           <p><a href='/prg/1'><button class='btn btn-default col-md-4'>Programar</button></a></p>
         </div>
         <div class='btn-group' style='border-style:ridge;padding:0px 25px'>
-          <p style='font-size: 20px; width:100%; height:15px;'>Salida 1</p>
-          <p style='font-size: 12px; background-color:#4CAF50;color: white;'>Estado: ON</p>
-          <p><a href='/but/1/off'><button style='width:100%; border: 1px solid green' class='button_on'>ON</button></a></p>
-          <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
+          <p style='font-size: 20px; width:100%; height:15px;'>Salida 8</p>
+          <p style='font-size: 12px; background-color:#F44336;color: white;'>OFF</p>
+          <p><a href='/but/%i/on'><button style='width:100%; border: 1px solid red' class='button_off'>OFF</button></a></p>
+	  <p><a href='/sel/1/on'><button style='float: left; width:100%;' class='btn btn-default col-md-4'>Bot&oacute;n / Programa</button></a></p>
           <p><a href='/prg/1'><button class='btn btn-default col-md-4'>Programar</button></a></p>
         </div>
       </div>
