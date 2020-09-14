@@ -43,7 +43,7 @@
 #define EEPROM_SIZE 72    // Number of bytes that will be used to store the programming
 #define MESSAGE_LEN 85    // Number of bytes that the message will take
 #define OFFSET_PROGRAM 13 // Where the programming starts in the message
-#define SPI_CLK_FRQ 4E6   // SPI Clock (Máx 5MHz)
+#define SPI_CLK_FRQ 1E6   // SPI Clock (Máx 5MHz)
 
 
 /********************
